@@ -1,7 +1,7 @@
 {
   "name": "gabo-cli",
   "version": "1.0.0",
-  "description": "CLI tool for Speeding up API Development in a MVC Fashion",
+  "description": "CLI tool for the Lazy Express API developer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
