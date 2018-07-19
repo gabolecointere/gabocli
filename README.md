@@ -13,5 +13,6 @@ npm install -g gabo-cli
 Just run the following commands with your CLI on the root project of your express api:
 
 `gabo controller <name>`
+or
 `gabo model <name>`
 
