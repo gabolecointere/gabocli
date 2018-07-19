@@ -12,18 +12,15 @@ program
 program
   .command('controller <name>')
   .description('create a new controller')
-  .option('-r, --resource', '')
-  .action(function (name, opt) {
+  .action(function (name) {
     var basePath = './controllers/'
     var nombre = name.toLowerCase().charAt(0).toUpperCase() + name.substr(1)
     var fileName = nombre + 'Controller.js'
     var fullPath = basePath + fileName
 
-    console.log('resource', opt.resource)
-
     !fs.existsSync(basePath) && mkdirp(basePath)
 
-    return fs.existsSync(fullPath) ? console.log(fileName + ' already exists.') : fs.writeFile(fullPath, controllerBody(nombre, opt.resource), function (err) {
+    return fs.existsSync(fullPath) ? console.log(fileName + ' already exists.') : fs.writeFile(fullPath, controllerBody(nombre), function (err) {
       if (err) {
         console.log(err.message)
       } else {
