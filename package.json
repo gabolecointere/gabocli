@@ -1,0 +1,28 @@
+{
+  "name": "gabo-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for Speeding up API Development in a MVC Fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "express",
+    "mvc"
+  ],
+  "author": "Gabriel Lecointere <gabolecointere21@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "gabo": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "mkdir": "^0.0.2",
+    "p": "^0.2.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
