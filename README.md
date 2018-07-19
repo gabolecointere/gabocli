@@ -6,7 +6,7 @@ An easy way to create controllers and models files with the common boilerplate o
 
 ## Instalation 
 
-npm install -g gabo-cli
+npm install -g gabocli
 
 ## Usage 
 

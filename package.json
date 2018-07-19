@@ -1,5 +1,5 @@
 {
-  "name": "gabo-cli",
+  "name": "gabocli",
   "version": "1.0.0",
   "description": "CLI tool for the Lazy Express API developer",
   "main": "index.js",
